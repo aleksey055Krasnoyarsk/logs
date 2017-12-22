@@ -1,0 +1,8 @@
+__pycache__/
+media/*
+*.pyc
+*.sql
+settings_local.py
+assets/
+env/
+db.sqlite3

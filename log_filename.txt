@@ -1,1 +1,4 @@
 2017-12-21 12:15:44,600 - DEBUG - This is a log message.
+2017-12-21 13:44:48,702 - DEBUG - This is a log message.
+2017-12-21 13:45:14,107 - DEBUG - This is a log message.
+2017-12-21 13:45:46,802 - DEBUG - This is a log message.
