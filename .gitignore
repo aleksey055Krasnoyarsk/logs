@@ -6,3 +6,4 @@ settings_local.py
 assets/
 env/
 db.sqlite3
+log_filename.txt

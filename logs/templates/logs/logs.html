@@ -1,0 +1,94 @@
+2017-12-22 10:56:28,942 - ERROR - log - сообщение.
+
+2017-12-22 10:58:00,660 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:05,175 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:06,911 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:07,616 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:08,277 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:08,859 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:09,645 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:09,870 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:10,096 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:10,335 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:10,569 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:10,786 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:11,044 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:11,275 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:11,518 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:11,746 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:12,016 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:13,152 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:58:13,389 - ERROR - log - сообщение.
+ 
+
+2017-12-22 10:59:46,963 - ERROR - log - сообщение.
+ 
+
+2017-12-22 11:01:25,263 - ERROR - log - сообщение.
+ 
+
+2017-12-22 11:01:39,549 - ERROR - log - сообщение.
+ 
+
+2017-12-22 11:02:52,863 - ERROR - Сообщение системы.
+ 
+
+2017-12-22 11:04:05,627 - ERROR - Сообщение системы.
+ 
+
+2017-12-22 11:05:37,902 - ERROR - Internal Server Error: /readlog 
+Traceback (most recent call last):
+  File "/home/aleksey/Django1_11_7/env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/aleksey/Django1_11_7/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/aleksey/Django1_11_7/env/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aleksey/Django1_11_7/mylogs/logs/views.py", line 18, in readlog
+    logging.basicConfig(filename='logs/templates/logs/logs.html',level=logging.debug, format='%(asctime)s - %(levelname)s - %(message)s \n')
+  File "/usr/lib/python3.5/logging/__init__.py", line 1762, in basicConfig
+    root.setLevel(level)
+  File "/usr/lib/python3.5/logging/__init__.py", line 1255, in setLevel
+    self.level = _checkLevel(level)
+  File "/usr/lib/python3.5/logging/__init__.py", line 190, in _checkLevel
+    raise TypeError("Level not an integer or a valid string: %r" % level)
+TypeError: Level not an integer or a valid string: <function debug at 0x7f09c69c3598>
+2017-12-22 11:06:05,915 - ERROR - Сообщение системы.
+ 
+
